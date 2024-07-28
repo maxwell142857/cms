@@ -1,0 +1,11 @@
+前端项目：https://github.com/Lencamo/big-event-cms
+
+为了保证路由模块的纯粹性，所有路由处理函数，抽离到对应的路由处理模块。路由模块仅保留映射关系.相当于是controller
+
+
+TODO: 
+router handler模块下的注册功能，已完成加密，现在需要插入数据库
+了解bcrypt包，相同内容，多次加密，返回结果不同
+为什么加密写在db.query的回调函数中，而不是db.query之后？
+
+
